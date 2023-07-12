@@ -1,0 +1,19 @@
+.table{
+    border: solid 1px cornflowerblue;
+    width: 50%;
+
+}
+
+.th,td{
+    padding: 20px;
+    border: 1px solid;
+}
+
+.table,th,td{
+    border: 1px solid;
+}
+
+
+.table tr:hover {
+    background-color: #C0CEED;
+}

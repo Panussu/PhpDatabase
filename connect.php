@@ -1,13 +1,14 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "Kaophod_2548!";
-$dbname = "db_panus";
+$password = "cdti1234";
+$dbname = "sukritta_db";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
 if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());
 }
+
 ?>
